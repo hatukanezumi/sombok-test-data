@@ -123,7 +123,10 @@ fr.ea.out
 uri.in
 uri.break.out
     colmax:         1
-    preprocessing:  break URIs according to CMoS rules.
+    preprocessing:  break URIs according to some CMoS rules.
+uri.break.http.out
+    colmax:         1
+    preprocessing:  break HTTP URLs according to some CMoS rules; never break FTP URLs.
 uri.nonbreak.out
     colmax:         1
     preprocessing:  never break URIs.
@@ -163,6 +166,9 @@ th.al.out
     treat South East Asian complex context (SA) as alphabetic (AL).
 
 15 n/a
+------
+
+16 n/a
 ------
 
 Other useful test data
