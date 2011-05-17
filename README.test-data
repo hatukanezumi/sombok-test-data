@@ -188,6 +188,6 @@ Other useful test data
 
 * LineBreakTest.txt file in Unicode Character Database (UCD) may be
   useful for regression test:
-    http://www.unicode.org/Public/UCD/
+    http://www.unicode.org/Public/UNIDATA/auxiliary/LineBreakTest.txt
 
 $$
